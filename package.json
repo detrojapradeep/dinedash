@@ -2,10 +2,20 @@
   "name": "dinedash",
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
   "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html",
     "test": "jest"
   },
   "author": "Pradeep Kumar Detroja",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dinedash": "github:detrojapradeep/dinedash",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }
 }
